@@ -1,0 +1,57 @@
+
+2022-08-02 10:47:27:4205    ↔   Signature success
+2022-08-02 10:47:27:4372    ↔   Access method [RunShowPath]
+2022-08-02 10:47:27:4852    ↔   Pass method [RunShowPath]
+
+2022-08-02 10:47:42:0056    ↔   Signature success
+2022-08-02 10:47:42:0061    ↔   Access method [Exists]
+2022-08-02 10:47:42:0076    ↔   Pass method [Exists]
+2022-08-02 10:47:42:0083    ↔   Access method [Set]
+2022-08-02 10:47:42:0164    ↔   Pass method [Set]
+2022-08-02 10:47:42:0168    ↔   Access method [Get]
+2022-08-02 10:47:42:0174    ↔   Pass method [Get]
+2022-08-02 10:47:48:8626    ↔   Access method [CreateValidateArithmetic]
+2022-08-02 10:47:48:8637    ↔   Pass method [CreateValidateArithmetic]
+2022-08-02 10:47:48:8642    ↔   Access method [CreateValidateNumber]
+2022-08-02 10:47:48:8645    ↔   Pass method [CreateValidateNumber]
+2022-08-02 10:47:48:8649    ↔   Access method [CreateValidateNumber]
+2022-08-02 10:47:48:8652    ↔   Pass method [CreateValidateNumber]
+2022-08-02 10:47:48:8664    ↔   Access method [CreateValidateImage]
+2022-08-02 10:47:48:8694    ↔   Pass method [CreateValidateImage]
+2022-08-02 10:47:57:3238    ↔   Access method [RunShowPath]
+2022-08-02 10:47:57:3245    ↔   Pass method [RunShowPath]
+2022-08-02 10:48:02:8131    ↔   Access method [Exists]
+2022-08-02 10:48:02:8138    ↔   Pass method [Exists]
+2022-08-02 10:48:02:8149    ↔   Access method [Del]
+2022-08-02 10:48:02:8221    ↔   Pass method [Del]
+2022-08-02 10:48:02:8225    ↔   Access method [Get]
+2022-08-02 10:48:02:8369    ↔   Error method [Get]:
+2022-08-02 10:48:02:8374    ↔   Object reference not set to an instance of an object.
+
+2022-08-02 15:00:44:8081    ↔   Signature success
+
+2022-08-02 15:04:04:9408    ↔   Signature success
+
+2022-08-02 15:06:57:4287    ↔   Signature success
+
+2022-08-02 15:08:00:1536    ↔   Signature success
+
+2022-08-02 15:08:43:3862    ↔   Signature success
+
+2022-08-02 15:11:55:6919    ↔   Signature success
+
+2022-08-02 15:13:21:8846    ↔   Signature success
+
+2022-08-02 15:16:27:3745    ↔   Signature success
+
+2022-08-02 15:17:14:8603    ↔   Signature success
+
+2022-08-02 15:18:44:0894    ↔   Signature success
+2022-08-02 21:37:41:4505    ↔   Access method [CreateValidateArithmetic]
+2022-08-02 21:37:41:4519    ↔   Pass method [CreateValidateArithmetic]
+2022-08-02 21:37:41:4524    ↔   Access method [CreateValidateNumber]
+2022-08-02 21:37:41:4528    ↔   Pass method [CreateValidateNumber]
+2022-08-02 21:37:41:4532    ↔   Access method [CreateValidateNumber]
+2022-08-02 21:37:41:4535    ↔   Pass method [CreateValidateNumber]
+2022-08-02 21:37:41:4549    ↔   Access method [CreateValidateImage]
+2022-08-02 21:37:41:4574    ↔   Pass method [CreateValidateImage]

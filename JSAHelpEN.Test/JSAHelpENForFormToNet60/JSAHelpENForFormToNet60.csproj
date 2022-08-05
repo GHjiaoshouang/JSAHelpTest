@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;MSB3277;CS8602;CS8618;CS8600;CS8625;CS8603;CS8765;CS8604;CS8601;SYSLIB0021;SYSLIB0022;SYSLIB0023;SYSLIB0014;SYSLIB0006;CS8622;NU1701</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;MSB3277;CS8602;CS8618;CS8600;CS8625;CS8603;CS8765;CS8604;CS8601;SYSLIB0021;SYSLIB0022;SYSLIB0023;SYSLIB0014;SYSLIB0006;CS8622;NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JSAHelpEN" Version="8.0.4" />
+  </ItemGroup>
+
+</Project>

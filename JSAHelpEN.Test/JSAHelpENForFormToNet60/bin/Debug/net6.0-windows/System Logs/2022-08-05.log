@@ -1,0 +1,182 @@
+2022-08-05 12:08:24:6550    ↔   Access method [CreateValidateArithmetic]
+2022-08-05 12:08:24:6566    ↔   Pass method [CreateValidateArithmetic]
+2022-08-05 12:08:24:6571    ↔   Access method [CreateValidateNumber]
+2022-08-05 12:08:24:6573    ↔   Access method [CreateValidateNumber]
+2022-08-05 12:08:24:6575    ↔   Pass method [CreateValidateNumber]
+2022-08-05 12:08:24:6578    ↔   Access method [CreateValidateNumber]
+2022-08-05 12:08:24:6580    ↔   Pass method [CreateValidateNumber]
+2022-08-05 12:08:24:6593    ↔   Access method [CreateValidateImage]
+2022-08-05 12:08:24:6620    ↔   Pass method [CreateValidateImage]
+
+2022-08-05 12:08:26:2154    ↔   Signature success
+
+2022-08-05 12:08:26:2190    ↔   Signature success
+2022-08-05 12:08:26:2194    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:08:26:2261    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:08:26:2266    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:08:26:2268    ↔   Pass method [ReadFileToProgramDirectory]
+2022-08-05 12:08:26:3137    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:08:26:3141    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:08:26:3145    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:08:26:3147    ↔   Pass method [ReadFileToProgramDirectory]
+2022-08-05 12:08:26:3151    ↔   Access method [UnescapeJson]
+2022-08-05 12:08:26:3153    ↔   Pass method [UnescapeJson]
+2022-08-05 12:08:27:5540    ↔   Access method [SaveFileToProgramDirectory]
+2022-08-05 12:08:27:5546    ↔   Access method [SaveFileToDirectory]
+2022-08-05 12:08:27:5552    ↔   Pass method [SaveFileToDirectory]
+2022-08-05 12:08:27:5553    ↔   Pass method [SaveFileToProgramDirectory]
+2022-08-05 12:08:27:5557    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:08:27:5559    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:08:27:5562    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:08:27:5563    ↔   Pass method [ReadFileToProgramDirectory]
+
+2022-08-05 12:09:20:9370    ↔   Signature success
+2022-08-05 12:09:20:9374    ↔   Access method [Exists]
+2022-08-05 12:09:20:9382    ↔   Pass method [Exists]
+2022-08-05 12:09:20:9386    ↔   Access method [Set]
+2022-08-05 12:09:20:9455    ↔   Pass method [Set]
+2022-08-05 12:09:20:9459    ↔   Access method [Get]
+2022-08-05 12:09:20:9464    ↔   Pass method [Get]
+
+2022-08-05 12:09:23:0160    ↔   Signature success
+2022-08-05 12:09:23:0167    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:09:23:0234    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:09:23:0240    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:09:23:0241    ↔   Pass method [ReadFileToProgramDirectory]
+
+2022-08-05 12:09:23:0258    ↔   Signature success
+2022-08-05 12:09:23:0262    ↔   Access method [ConvertByXmlToDataTable]
+2022-08-05 12:09:23:0462    ↔   Pass method [ConvertByXmlToDataTable]
+
+2022-08-05 12:09:23:0474    ↔   Signature success
+2022-08-05 12:09:23:0487    ↔   Access method [Update]
+2022-08-05 12:09:24:2889    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:09:24:2892    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:09:24:2899    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:09:24:2903    ↔   Pass method [ReadFileToProgramDirectory]
+
+2022-08-05 12:09:24:3055    ↔   Signature success
+2022-08-05 12:09:24:3063    ↔   Access method [ConvertByJsonToDataTable]
+2022-08-05 12:09:24:3422    ↔   Pass method [ConvertByJsonToDataTable]
+2022-08-05 12:09:24:3427    ↔   Access method [ConvertByJsonToDictionary]
+2022-08-05 12:09:24:3854    ↔   Pass method [ConvertByJsonToDictionary]
+2022-08-05 12:09:24:3864    ↔   Access method [ConvertByJsonToDictionarySort]
+2022-08-05 12:09:24:3867    ↔   Pass method [ConvertByJsonToDictionarySort]
+2022-08-05 12:09:24:3950    ↔   Access method [SerializeObject]
+2022-08-05 12:09:24:3954    ↔   Access method [ConvertByJsonToDictionary]
+2022-08-05 12:09:24:3958    ↔   Pass method [ConvertByJsonToDictionary]
+2022-08-05 12:09:24:3998    ↔   Pass method [SerializeObject]
+2022-08-05 12:09:24:4003    ↔   Access method [ReplaceJsonByDictionary]
+2022-08-05 12:09:24:4032    ↔   Pass method [ReplaceJsonByDictionary]
+2022-08-05 12:09:24:4039    ↔   Access method [GetJsonValue]
+
+2022-08-05 12:09:35:0267    ↔   Signature success
+2022-08-05 12:09:35:0279    ↔   Access method [Query]
+2022-08-05 12:09:35:1463    ↔   Access method [Query]
+2022-08-05 12:09:35:5177    ↔   Access method [Query]
+
+2022-08-05 12:09:36:9973    ↔   Signature success
+2022-08-05 12:09:36:9982    ↔   Access method [ZIPCompression]
+2022-08-05 12:09:37:0243    ↔   Pass method [ZIPCompression]
+
+2022-08-05 12:09:37:0302    ↔   Signature success
+2022-08-05 12:09:37:0309    ↔   Access method [GitHubZipZipFile]
+2022-08-05 12:09:37:0487    ↔   Pass method [GitHubZipZipFile]
+2022-08-05 12:09:37:0492    ↔   Access method [ZIPdecompressPassword]
+2022-08-05 12:09:37:0779    ↔   Pass method [ZIPdecompressPassword]
+
+2022-08-05 12:09:50:6864    ↔   Signature success
+2022-08-05 12:09:50:6876    ↔   Access method [SetValue]
+2022-08-05 12:09:50:6891    ↔   Pass method [SetValue]
+2022-08-05 12:09:50:6894    ↔   Access method [GetValue]
+2022-08-05 12:09:50:6900    ↔   Access method [DeleteValue]
+2022-08-05 12:09:50:6907    ↔   Pass method [DeleteValue]
+
+2022-08-05 12:10:25:4562    ↔   Signature success
+2022-08-05 12:10:25:4580    ↔   Access method [CircuitBreaker]
+
+2022-08-05 12:10:29:7323    ↔   Signature success
+2022-08-05 12:10:29:7331    ↔   Access method [AESEncrypt]
+2022-08-05 12:10:29:7340    ↔   Pass method [AESEncrypt]
+2022-08-05 12:10:29:7346    ↔   Access method [AESDecrypt]
+2022-08-05 12:10:29:7350    ↔   Pass method [AESDecrypt]
+2022-08-05 12:10:29:7356    ↔   Access method [Base64Encrypt]
+2022-08-05 12:10:29:7360    ↔   Pass method [Base64Encrypt]
+2022-08-05 12:10:29:7366    ↔   Access method [Base64Decrypt]
+2022-08-05 12:10:29:7370    ↔   Pass method [Base64Decrypt]
+2022-08-05 12:10:29:7377    ↔   Access method [DESEncrypt]
+2022-08-05 12:10:29:7384    ↔   Pass method [DESEncrypt]
+2022-08-05 12:10:29:7392    ↔   Access method [DESDecrypt]
+2022-08-05 12:10:29:7399    ↔   Pass method [DESDecrypt]
+2022-08-05 12:10:29:7404    ↔   Access method [RC4Encrypt]
+2022-08-05 12:10:29:7426    ↔   Pass method [RC4Encrypt]
+2022-08-05 12:10:29:7430    ↔   Access method [RC4Decrypt]
+2022-08-05 12:10:29:7434    ↔   Pass method [RC4Decrypt]
+2022-08-05 12:10:29:7441    ↔   Access method [RSAGetPublicKeyOrPrivateKey]
+2022-08-05 12:10:29:7565    ↔   Pass method [RSAGetPublicKeyOrPrivateKey]
+2022-08-05 12:10:29:7572    ↔   Access method [RSAEncrypt]
+2022-08-05 12:10:29:7660    ↔   Pass method [RSAEncrypt]
+2022-08-05 12:10:29:7669    ↔   Access method [RSADecrypt]
+2022-08-05 12:10:29:7684    ↔   Pass method [RSADecrypt]
+2022-08-05 12:10:29:7692    ↔   Access method []
+2022-08-05 12:10:29:7707    ↔   Pass method []
+2022-08-05 12:10:29:7724    ↔   Pass method []
+2022-08-05 12:10:29:7729    ↔   Access method [HASH2Encrypt]
+2022-08-05 12:10:29:7747    ↔   Pass method [HASH2Encrypt]
+2022-08-05 12:10:29:7752    ↔   Access method [MD5Encrypt]
+2022-08-05 12:10:29:7763    ↔   Pass method [MD5Encrypt]
+2022-08-05 12:10:29:7774    ↔   Access method [PBKDF2Encrypt]
+2022-08-05 12:10:29:7788    ↔   Pass method [PBKDF2Encrypt]
+2022-08-05 12:10:29:7793    ↔   Access method [SHA1Encrypt]
+2022-08-05 12:10:29:7797    ↔   Pass method [SHA1Encrypt]
+2022-08-05 12:10:29:7805    ↔   Access method [SHA224Encrypt]
+2022-08-05 12:10:29:7811    ↔   Pass method [SHA224Encrypt]
+2022-08-05 12:10:29:7817    ↔   Access method [SHA256Encrypt]
+2022-08-05 12:10:29:7822    ↔   Pass method [SHA256Encrypt]
+2022-08-05 12:10:29:7829    ↔   Access method [SHA384Encrypt]
+2022-08-05 12:10:29:7834    ↔   Pass method [SHA384Encrypt]
+2022-08-05 12:10:29:7841    ↔   Access method [SHA512Encrypt]
+2022-08-05 12:10:29:7846    ↔   Pass method [SHA512Encrypt]
+2022-08-05 12:10:29:7854    ↔   Access method [TripdesEncrypt]
+2022-08-05 12:10:29:7860    ↔   Pass method [TripdesEncrypt]
+
+2022-08-05 12:10:31:0401    ↔   Signature success
+2022-08-05 12:10:31:0412    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:10:31:0481    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:10:31:0486    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:10:31:0489    ↔   Pass method [ReadFileToProgramDirectory]
+
+2022-08-05 12:10:31:0906    ↔   Signature success
+2022-08-05 12:10:31:0918    ↔   Access method [SaveTable]
+2022-08-05 12:10:31:6601    ↔   Pass method [SaveTable]
+2022-08-05 12:10:31:6604    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:10:31:6613    ↔   Pass method [ReadFileToDirectory]
+
+2022-08-05 12:10:31:6626    ↔   Signature success
+2022-08-05 12:10:31:6649    ↔   Access method [SaveFileToDirectory]
+2022-08-05 12:10:31:6653    ↔   Pass method [SaveFileToDirectory]
+2022-08-05 12:10:31:6753    ↔   Access method [ReadFileToProgramDirectory]
+2022-08-05 12:10:31:6756    ↔   Access method [ReadFileToDirectory]
+2022-08-05 12:10:31:6764    ↔   Pass method [ReadFileToDirectory]
+2022-08-05 12:10:31:6769    ↔   Pass method [ReadFileToProgramDirectory]
+2022-08-05 12:10:31:6890    ↔   Access method [ConvertByDataSetToDictionary]
+2022-08-05 12:10:31:6895    ↔   Access method [ConvertByDataTableToDictionary]
+2022-08-05 12:10:31:6902    ↔   Pass method [ConvertByDataTableToDictionary]
+2022-08-05 12:10:31:6907    ↔   Pass method [ConvertByDataSetToDictionary]
+2022-08-05 12:10:31:6912    ↔   Access method [ConvertByDataTableToDictionary]
+2022-08-05 12:10:31:6918    ↔   Pass method [ConvertByDataTableToDictionary]
+2022-08-05 12:10:36:6285    ↔   Access method [Start]
+2022-08-05 12:10:36:6345    ↔   Pass method [Start]
+2022-08-05 12:10:36:6384    ↔   Access method [CircuitBreakerOther]
+2022-08-05 12:10:36:6660    ↔   Access method []
+2022-08-05 12:10:36:8503    ↔   Access method [Send]
+2022-08-05 12:10:36:8528    ↔   Pass method [Send]
+2022-08-05 12:10:36:8630    ↔   Pass method []
+2022-08-05 12:10:36:8663    ↔   Access method [CircuitBreakerOther]
+2022-08-05 12:10:36:8674    ↔   Access method []
+2022-08-05 12:10:37:0586    ↔   Error method []:
+2022-08-05 12:10:37:0589    ↔   The remote server returned an error: (404) Not Found.
+2022-08-05 12:10:37:0620    ↔   Error method [CircuitBreakerOther]:
+2022-08-05 12:10:37:0622    ↔   Time: 2022/8/5 12:10:37; Version:8.0.1.0; Location:; Message:The remote server returned an error: (404) Not Found.
+2022-08-05 12:10:38:3357    ↔   Access method [RunShowPath]
+2022-08-05 12:10:38:3806    ↔   Pass method [RunShowPath]

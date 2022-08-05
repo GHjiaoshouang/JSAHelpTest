@@ -1,0 +1,60 @@
+﻿{
+    "mdtrtCertType": "01",
+    "deptName": "SB科",
+    "insuCode": "539900",
+    "payAuthNo": "AUTH530100202204291714500000057",
+    "diseinfoList": [
+        {
+            "diagDept": "0001",
+            "diagTime": "2021-12-15 14:51:11",
+            "diagSrtNo": "1",
+            "diagType": "1",
+            "diagName": "哦哦",
+            "diagCode": "Z00.001",
+            "diseDorName": "测试",
+            "diseDorNo": "123",
+            "valiFlag": "1"
+        }
+    ],
+    "gesoVal": "0",
+    "chrgBchno": "2222222222",
+    "iptOtpNo": "11111111111",
+    "psnNo": "2222222233",
+    "caty": "A01",
+    "idNo": "530381200011202134",
+    "fetusCnt": "0",
+    "orgCodg": "H53010200556",
+    "fetts": "0",
+    "expContent": "{\"act_purc_pric\":\"46\",\"sin_dos\":0,\"medins_list_name\":\"大换药（创面在30－40㎝2）\"}",
+    "atddrNo": "D2108110005711",
+    "idType": "01",
+    "medOrgOrd": "H53010200556202204060002",
+    "feedetailList": [
+        {
+            "bilgDrCodg": "007",
+            "feedetlSn": "H53010200556202204060001",
+            "medListCodg": "001206000020000-120600002",
+            "cnt": "1",
+            "pric": "46",
+            "medinsListCodg": "010",
+            "rxCircFlag": "012",
+            "bilgDeptName": "006",
+            "psnNo": "KM0151112853",
+            "bilgDeptCodg": "001",
+            "hospApprFlag": "011",
+            "detItemFeeSumamt": "46",
+            "expContent": "{\"act_purc_pric\":\"46\",\"sin_dos\":0,\"medins_list_name\":\"大换药（创面在30－40㎝2）\"}",
+            "mdtrtId": "181843",
+            "bilgDrName": "008"
+        }
+    ],
+    "drName": "孙振(Z12)",
+    "feeType": "00",
+    "insutype": "310",
+    "userName": "测试人员",
+    "medType": "11",
+    "uldLatlnt": "0,0",
+    "medfeeSumamt": "46",
+    "mdtrtId": "181843",
+    "deptCode": "nk01"
+}
