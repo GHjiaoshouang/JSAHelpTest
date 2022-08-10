@@ -15,9 +15,6 @@ namespace JSAHelpENForFormToNet45
         [STAThread]
         static void Main()
         {
-
-            string ssr = ApplicationFunc.HandingMethodTryCatch(AnyPCInfoEnumerate.Sys6,SystemManager.GetSystemAnyInfo,null);
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

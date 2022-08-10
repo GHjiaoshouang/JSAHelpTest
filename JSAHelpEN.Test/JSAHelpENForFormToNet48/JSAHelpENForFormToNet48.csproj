@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1992ABA9-E837-44F3-857A-7AF11EF7730D}</ProjectGuid>
+    <ProjectGuid>{17E0EFF2-8AA6-43A6-98D9-70FE0257FB93}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>JSAHelpENForFormToNet48</RootNamespace>
     <AssemblyName>JSAHelpENForFormToNet48</AssemblyName>
@@ -12,8 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,28 +34,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel" />
-    <Reference Include="System.ComponentModel.Composition" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Linq" />
-    <Reference Include="System.Management" />
-    <Reference Include="System.Numerics" />
-    <Reference Include="System.Reflection" />
-    <Reference Include="System.Runtime.Extensions" />
-    <Reference Include="System.Runtime.InteropServices" />
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
-    <Reference Include="System.Security" />
-    <Reference Include="System.Transactions" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -71,16 +56,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\biaoge.cs" />
     <Compile Include="Test\cmd.cs" />
+    <Compile Include="Test\erweima.cs" />
     <Compile Include="Test\fuwu.cs" />
+    <Compile Include="Test\huancun.cs" />
     <Compile Include="Test\jiajiemi.cs" />
     <Compile Include="Test\jsonjiexi.cs" />
+    <Compile Include="Test\lujing.cs" />
     <Compile Include="Test\QianMing.cs" />
     <Compile Include="Test\Regedit.cs" />
     <Compile Include="Test\RiZhi.cs" />
     <Compile Include="Test\rongduan.cs" />
     <Compile Include="Test\shujuku.cs" />
     <Compile Include="Test\wenjian.cs" />
+    <Compile Include="Test\xitong.cs" />
     <Compile Include="Test\xmljiexi.cs" />
+    <Compile Include="Test\yanzhengma.cs" />
     <Compile Include="Test\yasuo.cs" />
     <Compile Include="Test\YiChang.cs" />
     <Compile Include="Test\zhifucuanchuli.cs" />
@@ -93,6 +83,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="File\123\JSON.json" />
     <None Include="File\JSON.json" />
     <None Include="File\JSON2.json" />
     <None Include="Properties\Settings.settings">
@@ -113,10 +104,9 @@
     <Content Include="File\XML2.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JSAHelpEN\JSAHelpEN.csproj">
-      <Project>{da8e804d-bed3-4a80-852f-2a635bcde7e5}</Project>
-      <Name>JSAHelpEN</Name>
-    </ProjectReference>
+    <PackageReference Include="JSAHelpEN">
+      <Version>8.0.24</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

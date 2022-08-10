@@ -162,7 +162,12 @@ namespace JSAHelpENForFormToNet60
                     break;
 
                 case "网络":
-
+                    bool flag = JSAHelpEN.toolsFactory.Network.Internet();// 判断是否可以通外网         
+                    bool flag2 = JSAHelpEN.toolsFactory.Network.Ping("127.0.0.1");// 判断ip地址是否可以连接
+                    res[0] = "true";
+                    res[1] = "验证码:";
+                    res[2] = "测试正常!";
+                    res[3] = "";
                     break;
 
                 case "表格":
@@ -190,7 +195,7 @@ namespace JSAHelpENForFormToNet60
                     res = Test.yasuo.One();
                     break;
                 case "二维码":
-                    string path = "";
+                  
                     JSAHelpEN.toolsFactory.QRCodeHelper.QRsetting qRsetting = new JSAHelpEN.toolsFactory.QRCodeHelper.QRsetting();
                     qRsetting.IsCreateQRcode = true;
                     qRsetting.IconSize = 8;

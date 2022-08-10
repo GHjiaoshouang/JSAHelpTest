@@ -17,7 +17,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JSAHelpEN" Version="8.0.4" />
+    <PackageReference Include="JSAHelpEN" Version="8.0.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="JSAvalidation">
+      <HintPath>..\..\..\2022Git云\JSAHelpEN\JSAHelpEN\bin\Debug\net45\JSAvalidation.dll</HintPath>
+    </Reference>
+    <Reference Include="Polly">
+      <HintPath>..\..\..\2022Git云\JSAHelpEN\JSAHelpEN\bin\Debug\net45\Polly.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

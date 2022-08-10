@@ -33,11 +33,15 @@ namespace JSAHelpENForToNetCore31
             this.TestClick = new System.Windows.Forms.Button();
             this.checkBox_qianming = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox_erweima = new System.Windows.Forms.CheckBox();
             this.checkBox_zhucbiao = new System.Windows.Forms.CheckBox();
             this.checkBox_fuwu = new System.Windows.Forms.CheckBox();
             this.checkBox_cmd = new System.Windows.Forms.CheckBox();
             this.checkBox_yibu = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.checkBox_yanzhengma = new System.Windows.Forms.CheckBox();
+            this.checkBox_lujing = new System.Windows.Forms.CheckBox();
+            this.checkBox_huancun = new System.Windows.Forms.CheckBox();
             this.checkBox_wangluo = new System.Windows.Forms.CheckBox();
             this.checkBox_xml = new System.Windows.Forms.CheckBox();
             this.checkBox_json = new System.Windows.Forms.CheckBox();
@@ -52,7 +56,9 @@ namespace JSAHelpENForToNetCore31
             this.checkBox_biaoge = new System.Windows.Forms.CheckBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // TestClick
@@ -79,11 +85,15 @@ namespace JSAHelpENForToNetCore31
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox_erweima);
             this.groupBox1.Controls.Add(this.checkBox_zhucbiao);
             this.groupBox1.Controls.Add(this.checkBox_fuwu);
             this.groupBox1.Controls.Add(this.checkBox_cmd);
             this.groupBox1.Controls.Add(this.checkBox_yibu);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.checkBox_yanzhengma);
+            this.groupBox1.Controls.Add(this.checkBox_lujing);
+            this.groupBox1.Controls.Add(this.checkBox_huancun);
             this.groupBox1.Controls.Add(this.checkBox_wangluo);
             this.groupBox1.Controls.Add(this.checkBox_xml);
             this.groupBox1.Controls.Add(this.checkBox_json);
@@ -101,10 +111,20 @@ namespace JSAHelpENForToNetCore31
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox1.Size = new System.Drawing.Size(443, 163);
+            this.groupBox1.Size = new System.Drawing.Size(443, 220);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "测试项";
+            // 
+            // checkBox_erweima
+            // 
+            this.checkBox_erweima.AutoSize = true;
+            this.checkBox_erweima.Location = new System.Drawing.Point(195, 141);
+            this.checkBox_erweima.Name = "checkBox_erweima";
+            this.checkBox_erweima.Size = new System.Drawing.Size(63, 21);
+            this.checkBox_erweima.TabIndex = 8;
+            this.checkBox_erweima.Text = "二维码";
+            this.checkBox_erweima.UseVisualStyleBackColor = true;
             // 
             // checkBox_zhucbiao
             // 
@@ -151,12 +171,45 @@ namespace JSAHelpENForToNetCore31
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(334, 127);
+            this.label1.Location = new System.Drawing.Point(342, 190);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "勾选要测试的项";
+            // 
+            // checkBox_yanzhengma
+            // 
+            this.checkBox_yanzhengma.AutoSize = true;
+            this.checkBox_yanzhengma.Location = new System.Drawing.Point(19, 141);
+            this.checkBox_yanzhengma.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.checkBox_yanzhengma.Name = "checkBox_yanzhengma";
+            this.checkBox_yanzhengma.Size = new System.Drawing.Size(63, 21);
+            this.checkBox_yanzhengma.TabIndex = 1;
+            this.checkBox_yanzhengma.Text = "验证码";
+            this.checkBox_yanzhengma.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_lujing
+            // 
+            this.checkBox_lujing.AutoSize = true;
+            this.checkBox_lujing.Location = new System.Drawing.Point(99, 141);
+            this.checkBox_lujing.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.checkBox_lujing.Name = "checkBox_lujing";
+            this.checkBox_lujing.Size = new System.Drawing.Size(51, 21);
+            this.checkBox_lujing.TabIndex = 1;
+            this.checkBox_lujing.Text = "路径";
+            this.checkBox_lujing.UseVisualStyleBackColor = true;
+            // 
+            // checkBox_huancun
+            // 
+            this.checkBox_huancun.AutoSize = true;
+            this.checkBox_huancun.Location = new System.Drawing.Point(99, 114);
+            this.checkBox_huancun.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.checkBox_huancun.Name = "checkBox_huancun";
+            this.checkBox_huancun.Size = new System.Drawing.Size(51, 21);
+            this.checkBox_huancun.TabIndex = 1;
+            this.checkBox_huancun.Text = "缓存";
+            this.checkBox_huancun.UseVisualStyleBackColor = true;
             // 
             // checkBox_wangluo
             // 
@@ -308,11 +361,21 @@ namespace JSAHelpENForToNetCore31
             this.richTextBox2.TabIndex = 4;
             this.richTextBox2.Text = "";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(473, 22);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(335, 319);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 411);
+            this.ClientSize = new System.Drawing.Size(819, 474);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.groupBox1);
@@ -324,6 +387,7 @@ namespace JSAHelpENForToNetCore31
             this.Text = "JSAHelpEN测试(Core3.1)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -352,5 +416,10 @@ namespace JSAHelpENForToNetCore31
         private CheckBox checkBox_cmd;
         private CheckBox checkBox_fuwu;
         private CheckBox checkBox_zhucbiao;
+        private CheckBox checkBox_huancun;
+        private CheckBox checkBox_yanzhengma;
+        private PictureBox pictureBox1;
+        private CheckBox checkBox_lujing;
+        private CheckBox checkBox_erweima;
     }
 }

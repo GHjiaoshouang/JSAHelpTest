@@ -13,7 +13,7 @@ namespace JSAHelpENForFormToNet60.Test
             string[] result = new string[4];
             try
             {
-                JSAHelpEN.toolsFactory.LocalFileManage.SplitString("sssff","ff");
+                JSAHelpEN.toolsFactory.StringHandling.SplitString("sssff","ff");
                 result[0] = "true";
                 result[1] = "签名:";
                 result[2] = "测试正常!";

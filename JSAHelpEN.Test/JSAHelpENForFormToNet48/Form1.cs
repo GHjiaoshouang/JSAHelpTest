@@ -18,6 +18,7 @@ namespace JSAHelpENForFormToNet48
             InitializeComponent();
             JSAHelpEN.toolsFactory.WinfromManager WM = new JSAHelpEN.toolsFactory.WinfromManager(this, this.richTextBox1);
 
+
         }
 
         private void TestClick_Click(object sender, EventArgs e)
@@ -110,7 +111,29 @@ namespace JSAHelpENForFormToNet48
                 case "日志":
                     res = Test.RiZhi.One();
                     break;
-
+                case "缓存":
+                    res = Test.huancun.One();
+                    break;
+                case "路径":
+                    res = Test.lujing.One();
+                    break;
+                case "验证码":
+                    res = Test.yanzhengma.One();
+                    //
+                    JSAHelpEN.toolsFactory.VerificationCode.BitmapParam bitmapParam = new JSAHelpEN.toolsFactory.VerificationCode.BitmapParam();
+                    List<string> vs = new List<string>();
+                    vs.Add(JSAHelpEN.toolsFactory.VerificationCode.CreateValidateNumber(5));
+                    bitmapParam.textarr = vs;
+                    JSAHelpEN.toolsFactory.VerificationCode.BitmapStyle bitmapStyle = new JSAHelpEN.toolsFactory.VerificationCode.BitmapStyle();
+                    bitmapStyle.IsGif = false;
+                    Bitmap bitmap = JSAHelpEN.toolsFactory.VerificationCode.CreateValidateImage(bitmapParam, bitmapStyle);
+                    pictureBox1.Image = bitmap;
+                    res[0] = "true";
+                    res[1] = "验证码:";
+                    res[2] = "测试正常!";
+                    res[3] = "";
+                    JSAHelpEN.toolsFactory.WinfromManager.Refresh();
+                    break;
                 case "文件":
                     res = Test.wenjian.One();
                     if (res[0] != "true")
@@ -151,7 +174,12 @@ namespace JSAHelpENForFormToNet48
                     break;
 
                 case "网络":
-
+                    bool flag = JSAHelpEN.toolsFactory.Network.Internet();// 判断是否可以通外网         
+                    bool flag2 = JSAHelpEN.toolsFactory.Network.Ping("127.0.0.1");// 判断ip地址是否可以连接
+                    res[0] = "true";
+                    res[1] = "验证码:";
+                    res[2] = "测试正常!";
+                    res[3] = "";
                     break;
 
                 case "表格":
@@ -178,7 +206,25 @@ namespace JSAHelpENForFormToNet48
                 case "压缩":
                     res = Test.yasuo.One();
                     break;
+                case "二维码":
 
+                    JSAHelpEN.toolsFactory.QRCodeHelper.QRsetting qRsetting = new JSAHelpEN.toolsFactory.QRCodeHelper.QRsetting();
+                    qRsetting.IsCreateQRcode = true;
+                    qRsetting.IconSize = 8;
+                    string[] vs1 = { "1234567890" };
+                    Dictionary<Bitmap, string> dicImg = JSAHelpEN.toolsFactory.QRCodeHelper.GetQRCode(vs1, qRsetting);
+                    pictureBox1.Image = JSAHelpEN.toolsFactory.QRCodeHelper.GetQRcodeImage(dicImg);
+                    //pictureBox1.Image= JSAHelpEN.toolsFactory.BarCodeHelper.GetBarcode("123123123");
+                    //string encry = JSAHelpEN.toolsFactory.ApplicationFunc.HandingMethodTryCatch5("123123123", JSAHelpEN.toolsFactory.EncryptionAndDecryption.MD5Encrypt);
+                    //string encry2 = JSAHelpEN.toolsFactory.TryCatchExtensions.HandingMethodTryCatch("sdsd", JSAHelpEN.toolsFactory.EncryptionAndDecryption.MD5Encrypt);
+                    //pictureBox1.Image = JSAHelpEN.toolsFactory.TryCatchExtensions.TryCatch(dicImg, JSAHelpEN.toolsFactory.QRCodeHelper.GetQRcodeImage, null, null);
+
+
+                    res[0] = "true";
+                    res[1] = "二维码:";
+                    res[2] = "测试正常!";
+                    res[3] = "";
+                    break;
                 case "数据库":
                     res = Test.shujuku.One();
                     break;
@@ -189,7 +235,7 @@ namespace JSAHelpENForFormToNet48
                     res = Test.Regedit.One();
                     break;
                 case "系统":
-
+                    res = Test.xitong.One();
                     break;
                 case "服务":
                     res = Test.fuwu.One();
@@ -201,6 +247,13 @@ namespace JSAHelpENForFormToNet48
             }
 
         }
+
+        private void Fault(Exception obj)
+        {
+            MessageBox.Show("失败！" + obj);
+
+        }
+
 
         private void Show(CheckBox ck)
         {

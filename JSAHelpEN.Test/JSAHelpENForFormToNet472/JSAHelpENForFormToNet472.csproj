@@ -61,16 +61,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\biaoge.cs" />
     <Compile Include="Test\cmd.cs" />
+    <Compile Include="Test\erweima.cs" />
     <Compile Include="Test\fuwu.cs" />
+    <Compile Include="Test\huancun.cs" />
     <Compile Include="Test\jiajiemi.cs" />
     <Compile Include="Test\jsonjiexi.cs" />
+    <Compile Include="Test\lujing.cs" />
     <Compile Include="Test\QianMing.cs" />
     <Compile Include="Test\Regedit.cs" />
     <Compile Include="Test\RiZhi.cs" />
     <Compile Include="Test\rongduan.cs" />
     <Compile Include="Test\shujuku.cs" />
     <Compile Include="Test\wenjian.cs" />
+    <Compile Include="Test\xitong.cs" />
     <Compile Include="Test\xmljiexi.cs" />
+    <Compile Include="Test\yanzhengma.cs" />
     <Compile Include="Test\yasuo.cs" />
     <Compile Include="Test\YiChang.cs" />
     <Compile Include="Test\zhifucuanchuli.cs" />
@@ -86,6 +91,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="File\123\JSON.json" />
     <None Include="File\JSON.json" />
     <None Include="File\JSON2.json" />
     <None Include="Properties\Settings.settings">
@@ -106,10 +112,9 @@
     <Content Include="File\XML2.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JSAHelpEN\JSAHelpEN.csproj">
-      <Project>{da8e804d-bed3-4a80-852f-2a635bcde7e5}</Project>
-      <Name>JSAHelpEN</Name>
-    </ProjectReference>
+    <PackageReference Include="JSAHelpEN">
+      <Version>8.0.23</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

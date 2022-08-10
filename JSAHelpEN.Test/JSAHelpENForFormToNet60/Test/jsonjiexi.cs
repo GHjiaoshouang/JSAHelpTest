@@ -19,7 +19,7 @@ namespace JSAHelpENForFormToNet60.Test
             string[] result = new string[4];
             try
             {
-                JSAHelpEN.toolsFactory.LocalFileManage.SplitString("sssff", "ff");
+                JSAHelpEN.toolsFactory.StringHandling.SplitString("sssff", "ff");
 
                 string jsonStr = JSAHelpEN.toolsFactory.LocalFileManage.ReadFileToProgramDirectory("JSON2.json","File");
 

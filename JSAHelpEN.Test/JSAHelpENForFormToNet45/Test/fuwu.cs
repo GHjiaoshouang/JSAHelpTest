@@ -41,23 +41,16 @@ namespace JSAHelpENForFormToNet45.Test
             string[] result = new string[4];
             try
             {
-                Dictionary<string, string> obj = new Dictionary<string, string>();
-                //obj.Add("Url", "http://10.68.63.54:8086/1.0.0/hsa-fsi-");
-                //obj.Add("Content", "5");
-                //obj.Add("Method","POST");
-                obj.Add("ContentType", "application/json");
-
-               string ssrs= JSAHelpEN.toolsFactory.Send.SparMethods.Send("http://10.68.63.54:8086/1.0.0/hsa-fsi-","5",5, obj);
-
                 //请求服务
                 JSAHelpEN.toolsFactory.Send.PostmanPara postmanPara = new JSAHelpEN.toolsFactory.Send.PostmanPara();
-                //postmanPara.URL = "http://127.0.0.1:8080/xxx/xxxx/api";
-                postmanPara.URL = "http://10.68.63.54:8086/1.0.0/hsa-fsi-";
+                postmanPara.URL = "http://127.0.0.1:8080/xxx/xxxx/api";
                 postmanPara.Method= "POST";
                 postmanPara.Postdata = "5";
                 string res = JSAHelpEN.toolsFactory.Send.Postman(postmanPara);
+
                 if (res.Equals("123"))
                 {
+
                     result[0] = "true";
                     result[1] = "请求服务:";
                     result[2] = "测试正常!";

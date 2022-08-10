@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj": {}
+    "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj": {}
   },
   "projects": {
-    "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj": {
+    "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj",
+        "projectUniqueName": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj",
         "projectName": "JSAHelpENForFormToNet60",
-        "projectPath": "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj",
+        "projectPath": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\JSAHelpENForFormToNet60.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\obj\\",
+        "outputPath": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet60\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,7 @@
           "net6.0-windows7.0"
         ],
         "sources": {
+          "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug\\net45\\publish": {},
           "D:\\2022类库云\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -49,7 +50,7 @@
           "dependencies": {
             "JSAHelpEN": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.23, )"
             }
           },
           "imports": [

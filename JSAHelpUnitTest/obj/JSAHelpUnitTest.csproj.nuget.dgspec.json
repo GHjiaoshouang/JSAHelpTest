@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2022Git云\\JSAHelpEN\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj": {}
+    "D:\\2022Git测试\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj": {}
   },
   "projects": {
-    "D:\\2022Git云\\JSAHelpEN\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj": {
+    "D:\\2022Git测试\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2022Git云\\JSAHelpEN\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj",
+        "projectUniqueName": "D:\\2022Git测试\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj",
         "projectName": "JSAHelpUnitTest",
-        "projectPath": "D:\\2022Git云\\JSAHelpEN\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj",
+        "projectPath": "D:\\2022Git测试\\JSAHelpUnitTest\\JSAHelpUnitTest.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\2022Git云\\JSAHelpEN\\JSAHelpUnitTest\\obj\\",
+        "outputPath": "D:\\2022Git测试\\JSAHelpUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -26,6 +26,7 @@
           "net48"
         ],
         "sources": {
+          "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug\\net45\\publish": {},
           "D:\\2022类库云\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -40,7 +41,7 @@
           "dependencies": {
             "JSAHelpEN": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.23, )"
             },
             "MSTest.TestAdapter": {
               "target": "Package",

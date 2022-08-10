@@ -22,9 +22,10 @@ namespace JSAHelpENForFormToNet60.Test
                 {
                     JSAHelpEN.toolsFactory.Cache.Del(str);
                 }
-                else {   
-                    bool flag = JSAHelpEN.toolsFactory.Cache.Set<string>(str,"hello1c23",TimeSpan.FromSeconds(500));
-                
+                else
+                {
+                    bool flag = JSAHelpEN.toolsFactory.Cache.Set<string>(str, "hello1c23", TimeSpan.FromSeconds(500));
+
                 }
                 //获取
 
@@ -38,9 +39,10 @@ namespace JSAHelpENForFormToNet60.Test
                     result[3] = "";
                     return result;
                 }
-                else {
+                else
+                {
                     throw new Exception("缓存异常！");
-                }       
+                }
             }
             catch (Exception ex)
             {

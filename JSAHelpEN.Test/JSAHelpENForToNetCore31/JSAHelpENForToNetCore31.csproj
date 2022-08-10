@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\JSAHelpEN\JSAHelpEN.csproj" />
+    <None Remove="File\XML.xml" />
+    <None Remove="File\XML2.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="File\XML.xml" />
+    <Content Include="File\XML2.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JSAHelpEN" Version="8.0.23" />
   </ItemGroup>
 
 </Project>

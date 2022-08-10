@@ -18,7 +18,7 @@ namespace JSAHelpENForFormToNet472.Test
             string[] result = new string[4];
             try
             {
-                string mysql = "server=localhost;port=3306;user=root;password=root;database=Admin;SslMode=none;charset=utf8mb4";
+                string mysql = "server=127.0.0.1;port=3306;user=root;password=root;database=Admin;SslMode=none;charset=utf8mb4";
                 string pgsql = "server=localhost; port=5432; Database=Admin; user Id=postgres; password=root";
                 string sqlser = "Server=127.0.0.1,40906;Database=Admin;User Id=sa;Password=root;";
                 string sqlnpg = "SELECT * FROM \"Admin\".\"public\".\"StudentInfo\"";

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj": {}
+    "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj": {}
   },
   "projects": {
-    "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj": {
+    "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj",
+        "projectUniqueName": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj",
         "projectName": "JSAHelpENForFormToNet45",
-        "projectPath": "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj",
+        "projectPath": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\obj\\",
+        "outputPath": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -26,6 +26,7 @@
           "net45"
         ],
         "sources": {
+          "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug\\net45\\publish": {},
           "D:\\2022类库云\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -40,7 +41,7 @@
           "dependencies": {
             "JSAHelpEN": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.23, )"
             }
           }
         }

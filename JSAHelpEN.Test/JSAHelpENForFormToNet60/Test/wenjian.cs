@@ -54,7 +54,7 @@ namespace JSAHelpENForFormToNet60.Test
             try
             {
                 string path = JSAHelpEN.toolsFactory.PathHelper.GetSavePath(JSAHelpEN.toolsFactory.PathHelper.FilePathEnumerate.ProgramNoDebug,"Test.txt", "myselfFolderTemp");
-               path= JSAHelpEN.toolsFactory.LocalFileManage.SplitString(path, "myselfFolderTemp")[0];
+               path= JSAHelpEN.toolsFactory.StringHandling.SplitString(path, "myselfFolderTemp")[0];
                 if (path.Length>5) {
                     result[0] = "true";
                     result[1] = "获取文件路径、分割字符串检测:";

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAHelpUnitTest", "JSAHelpUnitTest.csproj", "{547E3259-F813-4137-A668-473E42CBAF10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAHelpENForFormToNet45", "..\JSAHelpEN.Test\JSAHelpENForFormToNet45\JSAHelpENForFormToNet45.csproj", "{7C92EFF4-DE33-4DA3-A7E3-59BCB9AABB92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSAHelpENForFormToNet60", "..\JSAHelpEN.Test\JSAHelpENForFormToNet60\JSAHelpENForFormToNet60.csproj", "{120090D6-4F95-44C3-8191-4DF40D96F2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAHelpENForFormToNet472", "..\JSAHelpEN.Test\JSAHelpENForFormToNet472\JSAHelpENForFormToNet472.csproj", "{09701E24-1DF5-4950-A4D8-394A41D22892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAHelpENForToNetCore31", "..\JSAHelpEN.Test\JSAHelpENForToNetCore31\JSAHelpENForToNetCore31.csproj", "{422BFD85-239B-4E4E-B0C6-987A301A28DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAHelpENForFormToNet48", "..\JSAHelpEN.Test\JSAHelpENForFormToNet48\JSAHelpENForFormToNet48.csproj", "{17E0EFF2-8AA6-43A6-98D9-70FE0257FB93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{547E3259-F813-4137-A668-473E42CBAF10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547E3259-F813-4137-A668-473E42CBAF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547E3259-F813-4137-A668-473E42CBAF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547E3259-F813-4137-A668-473E42CBAF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C92EFF4-DE33-4DA3-A7E3-59BCB9AABB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C92EFF4-DE33-4DA3-A7E3-59BCB9AABB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C92EFF4-DE33-4DA3-A7E3-59BCB9AABB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C92EFF4-DE33-4DA3-A7E3-59BCB9AABB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120090D6-4F95-44C3-8191-4DF40D96F2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120090D6-4F95-44C3-8191-4DF40D96F2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120090D6-4F95-44C3-8191-4DF40D96F2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120090D6-4F95-44C3-8191-4DF40D96F2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09701E24-1DF5-4950-A4D8-394A41D22892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09701E24-1DF5-4950-A4D8-394A41D22892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09701E24-1DF5-4950-A4D8-394A41D22892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09701E24-1DF5-4950-A4D8-394A41D22892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422BFD85-239B-4E4E-B0C6-987A301A28DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422BFD85-239B-4E4E-B0C6-987A301A28DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422BFD85-239B-4E4E-B0C6-987A301A28DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422BFD85-239B-4E4E-B0C6-987A301A28DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E0EFF2-8AA6-43A6-98D9-70FE0257FB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E0EFF2-8AA6-43A6-98D9-70FE0257FB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E0EFF2-8AA6-43A6-98D9-70FE0257FB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E0EFF2-8AA6-43A6-98D9-70FE0257FB93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {997C6441-740C-4B4A-BDE2-158358EE7B12}
+	EndGlobalSection
+EndGlobal

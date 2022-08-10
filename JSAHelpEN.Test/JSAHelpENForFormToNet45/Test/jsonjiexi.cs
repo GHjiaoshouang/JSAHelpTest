@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JSAHelpEN;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace JSAHelpENForFormToNet45.Test
             string[] result = new string[4];
             try
             {
-                JSAHelpEN.toolsFactory.LocalFileManage.SplitString("sssff", "ff");
+                JSAHelpEN.toolsFactory.StringHandling.SplitString("sssff", "ff");
 
                 string jsonStr = JSAHelpEN.toolsFactory.LocalFileManage.ReadFileToProgramDirectory("JSON2.json","File");
 

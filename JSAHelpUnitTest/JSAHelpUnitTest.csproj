@@ -39,6 +39,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Polly">
+      <HintPath>..\..\2022Git云\JSAHelpEN\JSAHelpEN\bin\Debug\net45\Polly.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -49,20 +52,52 @@
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Management" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="JSON解析.cs" />
+    <Compile Include="CMD.cs" />
+    <Compile Include="Excle.cs" />
+    <Compile Include="HTTP.cs" />
+    <Compile Include="分页.cs" />
+    <Compile Include="计时器.cs" />
+    <Compile Include="粘贴板.cs" />
+    <Compile Include="字符编码.cs" />
+    <Compile Include="条形码.cs" />
+    <Compile Include="进程.cs" />
+    <Compile Include="启动项.cs" />
+    <Compile Include="窗体.cs" />
+    <Compile Include="服务.cs" />
+    <Compile Include="系统.cs" />
+    <Compile Include="注册表.cs" />
+    <Compile Include="数据库.cs" />
+    <Compile Include="二维码.cs" />
+    <Compile Include="压缩.cs" />
+    <Compile Include="熔断.cs" />
+    <Compile Include="加解密.cs" />
+    <Compile Include="表格.cs" />
+    <Compile Include="网络.cs" />
+    <Compile Include="XML解析.cs" />
+    <Compile Include="字符串处理.cs" />
+    <Compile Include="文件.cs" />
+    <Compile Include="验证码.cs" />
+    <Compile Include="路径.cs" />
+    <Compile Include="缓存.cs" />
+    <Compile Include="异步.cs" />
+    <Compile Include="签名.cs" />
     <Compile Include="日志.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="JSAHelpEN">
-      <Version>8.0.5</Version>
+      <Version>8.0.23</Version>
     </PackageReference>
     <PackageReference Include="MSTest.TestAdapter">
       <Version>2.2.7</Version>
@@ -70,6 +105,9 @@
     <PackageReference Include="MSTest.TestFramework">
       <Version>2.2.7</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
