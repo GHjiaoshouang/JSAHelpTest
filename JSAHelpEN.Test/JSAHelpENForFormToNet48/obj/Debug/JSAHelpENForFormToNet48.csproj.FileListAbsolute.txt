@@ -65,3 +65,6 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\obj\Debug\JSAHelpENForFo
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\obj\Debug\JSAHelpENForFormToNet48.csproj.CopyComplete
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\obj\Debug\JSAHelpENForFormToNet48.exe
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\obj\Debug\JSAHelpENForFormToNet48.pdb
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\bin\Debug\JSAvalidation.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\bin\Debug\Polly.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet48\bin\Debug\System.Windows.Forms.dll

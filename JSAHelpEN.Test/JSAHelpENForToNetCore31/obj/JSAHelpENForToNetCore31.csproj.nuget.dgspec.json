@@ -25,7 +25,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug\\net45\\publish": {},
+          "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug": {},
           "D:\\2022类库云\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -47,7 +47,7 @@
           "dependencies": {
             "JSAHelpEN": {
               "target": "Package",
-              "version": "[8.0.23, )"
+              "version": "[8.1.16, )"
             }
           },
           "imports": [

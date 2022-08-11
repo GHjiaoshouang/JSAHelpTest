@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MUQ9X5AYwBIpzpipqLzkan3tOCKB2TfSU/jtdcRX1qWQHrPnpqGdAcKdFvWmgejgqP4xZZjov3So+GuhqTjS+A==",
+  "dgSpecHash": "pKZxwhXUkPkKLdyxT9FMXIuKILiyU9eFfLuOM0EFshDTteJeeagkIemVZr2wLzwuuqKd93VUm+lai91xSZjTsQ==",
   "success": true,
   "projectFilePath": "D:\\2022Git测试\\JSAHelpEN.Test\\JSAHelpENForFormToNet45\\JSAHelpENForFormToNet45.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,6 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\hcenter.cachehelper\\2.0.6\\hcenter.cachehelper.2.0.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\hcenter.commonutils\\2.0.6\\hcenter.commonutils.2.0.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\imageutil\\1.0.1\\imageutil.1.0.1.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\jsahelpen\\8.0.23\\jsahelpen.8.0.23.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\messagepack\\1.7.3.7\\messagepack.1.7.3.7.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\1.0.0\\microsoft.extensions.logging.abstractions.1.0.0.nupkg.sha512",
@@ -64,7 +63,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\thoughtworks.qrcode\\1.1.0\\thoughtworks.qrcode.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\zxing.net\\0.16.5\\zxing.net.0.16.5.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\zxing.net\\0.16.5\\zxing.net.0.16.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\jsahelpen\\8.1.10\\jsahelpen.8.1.10.nupkg.sha512"
   ],
   "logs": []
 }

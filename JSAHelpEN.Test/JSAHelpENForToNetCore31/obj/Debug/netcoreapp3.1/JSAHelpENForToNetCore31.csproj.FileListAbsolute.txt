@@ -113,3 +113,5 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForToNetCore31\bin\Debug\netcoreapp3.1\
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForToNetCore31\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForToNetCore31\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForToNetCore31\obj\Debug\netcoreapp3.1\JSAHelpENForToNetCore31.csproj.CopyComplete
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForToNetCore31\bin\Debug\netcoreapp3.1\JSAvalidation.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForToNetCore31\bin\Debug\netcoreapp3.1\Polly.dll

@@ -113,3 +113,6 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\bin\Debug\zxing.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\bin\Debug\zxing.presentation.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\bin\Debug\zxing.presentation.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\obj\Debug\JSAHelpENForFormToNet472.csproj.CopyComplete
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\bin\Debug\JSAvalidation.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\bin\Debug\Polly.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet472\bin\Debug\System.Windows.Forms.dll

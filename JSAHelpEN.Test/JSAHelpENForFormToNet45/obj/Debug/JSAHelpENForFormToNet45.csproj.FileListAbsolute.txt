@@ -49,8 +49,6 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\JSAHelpENForFo
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\JSAHelpENForFormToNet45.exe
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\JSAHelpENForFormToNet45.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\JSAHelpEN.dll
-D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Newtonsoft.Json.dll
-D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.ValueTuple.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFormToNet45.csproj.AssemblyReference.cache
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFormToNet45.Form1.resources
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFormToNet45.Properties.Resources.resources
@@ -59,9 +57,9 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFo
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFormToNet45.csproj.CopyComplete
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFormToNet45.exe
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\obj\Debug\JSAHelpENForFormToNet45.pdb
-D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\CSRedisCore.dll
-D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\HCenter.CacheHelper.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Buffers.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Aspose.Cells.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\CSRedisCore.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\FreeSql.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\FreeSql.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\zh-Hans\FreeSql.resources.dll
@@ -71,6 +69,7 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\FreeSql.Provid
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\FreeSql.Provider.PostgreSQL.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\FreeSql.Provider.SqlServer.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\FreeSql.Provider.SqlServer.pdb
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\HCenter.CacheHelper.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\HCenter.CommonUtils.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\ImageUtil.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\log4net.dll
@@ -78,6 +77,7 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\MessagePack.dl
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\MySql.Data.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\NBitcoin.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Newtonsoft.Json.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Npgsql.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Npgsql.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Npgsql.LegacyPostgis.dll
@@ -87,13 +87,17 @@ D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\QRCoder.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\SharpCompress.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\ICSharpCode.SharpZipLib.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\ICSharpCode.SharpZipLib.pdb
-D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Buffers.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Memory.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.ValueTuple.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\ThoughtWorks.QRCode.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\zxing.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\zxing.pdb
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\zxing.presentation.dll
 D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\zxing.presentation.pdb
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\JSAvalidation.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\Polly.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\System.Windows.Forms.dll
+D:\2022Git测试\JSAHelpEN.Test\JSAHelpENForFormToNet45\bin\Debug\JSAHelpEN.xml

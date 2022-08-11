@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "JSAHelpENForToNetCore31/1.0.0": {
         "dependencies": {
-          "JSAHelpEN": "8.0.23"
+          "JSAHelpEN": "8.1.16"
         },
         "runtime": {
           "JSAHelpENForToNetCore31.dll": {}
@@ -153,7 +153,7 @@
           }
         }
       },
-      "JSAHelpEN/8.0.23": {
+      "JSAHelpEN/8.1.16": {
         "dependencies": {
           "Aspose.Cells": "22.7.0",
           "FreeSql.Provider.MySql": "3.2.665",
@@ -177,8 +177,16 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/JSAHelpEN.dll": {
-            "assemblyVersion": "8.0.20.0",
-            "fileVersion": "8.0.20.0"
+            "assemblyVersion": "8.1.10.0",
+            "fileVersion": "8.1.10.0"
+          },
+          "lib/netcoreapp3.1/JSAvalidation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp3.1/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.1.0"
           }
         }
       },
@@ -2005,12 +2013,12 @@
       "path": "imageutil/1.0.1",
       "hashPath": "imageutil.1.0.1.nupkg.sha512"
     },
-    "JSAHelpEN/8.0.23": {
+    "JSAHelpEN/8.1.16": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B0VLLpZ0SFAjxc63tVN5bd71AeO2DBVV8PsGqEEkb9lpiRssG6a9QcdqwASy9Z9It+VDiQ0Uk7fatr+k7DMr/g==",
-      "path": "jsahelpen/8.0.23",
-      "hashPath": "jsahelpen.8.0.23.nupkg.sha512"
+      "sha512": "sha512-3nU0qMVfbdg4AgCmpZec2BsYyqA5Vn44JqKIpVF9NczEkqKaRUrWYkZs7HMCwjKh1GUIMeGnPLYCK/8CkoAhwA==",
+      "path": "jsahelpen/8.1.16",
+      "hashPath": "jsahelpen.8.1.16.nupkg.sha512"
     },
     "K4os.Compression.LZ4/1.2.6": {
       "type": "package",

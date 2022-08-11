@@ -113,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="JSAHelpEN">
-      <Version>8.0.23</Version>
+      <Version>8.1.16</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

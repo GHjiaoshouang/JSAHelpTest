@@ -8,9 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "JSAHelpENForFormToNet60/1.0.0": {
         "dependencies": {
-          "JSAHelpEN": "8.0.23",
-          "JSAvalidation": "1.0.0.0",
-          "Polly": "7.0.0.0"
+          "JSAHelpEN": "8.1.16"
         },
         "runtime": {
           "JSAHelpENForFormToNet60.dll": {}
@@ -151,7 +149,7 @@
           }
         }
       },
-      "JSAHelpEN/8.0.23": {
+      "JSAHelpEN/8.1.16": {
         "dependencies": {
           "Aspose.Cells": "22.7.0",
           "FreeSql.Provider.MySql": "3.2.665",
@@ -175,8 +173,16 @@
         },
         "runtime": {
           "lib/net6.0/JSAHelpEN.dll": {
-            "assemblyVersion": "8.0.20.0",
-            "fileVersion": "8.0.20.0"
+            "assemblyVersion": "8.1.10.0",
+            "fileVersion": "8.1.10.0"
+          },
+          "lib/net6.0/JSAvalidation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net6.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.1.0"
           }
         }
       },
@@ -1749,22 +1755,6 @@
             "fileVersion": "0.16.6.0"
           }
         }
-      },
-      "JSAvalidation/1.0.0.0": {
-        "runtime": {
-          "JSAvalidation.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Polly/7.0.0.0": {
-        "runtime": {
-          "Polly.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.2.1.0"
-          }
-        }
       }
     }
   },
@@ -1851,12 +1841,12 @@
       "path": "imageutil/1.0.1",
       "hashPath": "imageutil.1.0.1.nupkg.sha512"
     },
-    "JSAHelpEN/8.0.23": {
+    "JSAHelpEN/8.1.16": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B0VLLpZ0SFAjxc63tVN5bd71AeO2DBVV8PsGqEEkb9lpiRssG6a9QcdqwASy9Z9It+VDiQ0Uk7fatr+k7DMr/g==",
-      "path": "jsahelpen/8.0.23",
-      "hashPath": "jsahelpen.8.0.23.nupkg.sha512"
+      "sha512": "sha512-3nU0qMVfbdg4AgCmpZec2BsYyqA5Vn44JqKIpVF9NczEkqKaRUrWYkZs7HMCwjKh1GUIMeGnPLYCK/8CkoAhwA==",
+      "path": "jsahelpen/8.1.16",
+      "hashPath": "jsahelpen.8.1.16.nupkg.sha512"
     },
     "K4os.Compression.LZ4/1.2.6": {
       "type": "package",
@@ -2977,16 +2967,6 @@
       "sha512": "sha512-Q/QQTLjTPTbTrESGqM9B/xkTyy97QQYoR+BavXDwxz/H4IjqAz7wBKnSwTdiGmG5hwxH49TvcUtWUBLgQT6/8Q==",
       "path": "zxing.net.bindings.windows.compatibility/0.16.6",
       "hashPath": "zxing.net.bindings.windows.compatibility.0.16.6.nupkg.sha512"
-    },
-    "JSAvalidation/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Polly/7.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

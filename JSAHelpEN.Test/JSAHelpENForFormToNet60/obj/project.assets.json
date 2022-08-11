@@ -155,7 +155,7 @@
           "lib/netstandard2.0/ImageUtil.dll": {}
         }
       },
-      "JSAHelpEN/8.0.23": {
+      "JSAHelpEN/8.1.16": {
         "type": "package",
         "dependencies": {
           "Aspose.Cells": "22.7.0",
@@ -179,10 +179,16 @@
           "System.Net.Http": "4.3.0"
         },
         "compile": {
-          "lib/net6.0/JSAHelpEN.dll": {}
+          "lib/net6.0/JSAHelpEN.dll": {},
+          "lib/net6.0/JSAvalidation.dll": {},
+          "lib/net6.0/Polly.dll": {},
+          "lib/net6.0/System.Windows.Forms.dll": {}
         },
         "runtime": {
-          "lib/net6.0/JSAHelpEN.dll": {}
+          "lib/net6.0/JSAHelpEN.dll": {},
+          "lib/net6.0/JSAvalidation.dll": {},
+          "lib/net6.0/Polly.dll": {},
+          "lib/net6.0/System.Windows.Forms.dll": {}
         }
       },
       "K4os.Compression.LZ4/1.2.6": {
@@ -2919,33 +2925,60 @@
         "lib/netstandard2.0/ImageUtil.xml"
       ]
     },
-    "JSAHelpEN/8.0.23": {
-      "sha512": "B0VLLpZ0SFAjxc63tVN5bd71AeO2DBVV8PsGqEEkb9lpiRssG6a9QcdqwASy9Z9It+VDiQ0Uk7fatr+k7DMr/g==",
+    "JSAHelpEN/8.1.16": {
+      "sha512": "3nU0qMVfbdg4AgCmpZec2BsYyqA5Vn44JqKIpVF9NczEkqKaRUrWYkZs7HMCwjKh1GUIMeGnPLYCK/8CkoAhwA==",
       "type": "package",
-      "path": "jsahelpen/8.0.23",
+      "path": "jsahelpen/8.1.16",
       "files": [
         ".nupkg.metadata",
         "README.md",
-        "jsahelpen.8.0.23.nupkg.sha512",
+        "jsahelpen.8.1.16.nupkg.sha512",
         "jsahelpen.nuspec",
         "lib/net45/JSAHelpEN.dll",
         "lib/net45/JSAHelpEN.xml",
+        "lib/net45/JSAvalidation.dll",
+        "lib/net45/Polly.dll",
+        "lib/net45/System.Windows.Forms.dll",
         "lib/net452/JSAHelpEN.dll",
         "lib/net452/JSAHelpEN.xml",
+        "lib/net452/JSAvalidation.dll",
+        "lib/net452/Polly.dll",
+        "lib/net452/System.Windows.Forms.dll",
         "lib/net472/JSAHelpEN.dll",
         "lib/net472/JSAHelpEN.xml",
+        "lib/net472/JSAvalidation.dll",
+        "lib/net472/Polly.dll",
+        "lib/net472/System.Windows.Forms.dll",
         "lib/net48/JSAHelpEN.dll",
         "lib/net48/JSAHelpEN.xml",
+        "lib/net48/JSAvalidation.dll",
+        "lib/net48/Polly.dll",
+        "lib/net48/System.Windows.Forms.dll",
         "lib/net5.0/JSAHelpEN.dll",
         "lib/net5.0/JSAHelpEN.xml",
+        "lib/net5.0/JSAvalidation.dll",
+        "lib/net5.0/Polly.dll",
+        "lib/net5.0/System.Windows.Forms.dll",
         "lib/net6.0/JSAHelpEN.dll",
         "lib/net6.0/JSAHelpEN.xml",
+        "lib/net6.0/JSAvalidation.dll",
+        "lib/net6.0/Polly.dll",
+        "lib/net6.0/System.Windows.Forms.dll",
         "lib/netcoreapp3.1/JSAHelpEN.dll",
         "lib/netcoreapp3.1/JSAHelpEN.xml",
+        "lib/netcoreapp3.1/JSAvalidation.dll",
+        "lib/netcoreapp3.1/Polly.dll",
+        "lib/netcoreapp3.1/System.Windows.Forms.dll",
         "lib/netstandard2.0/JSAHelpEN.dll",
         "lib/netstandard2.0/JSAHelpEN.xml",
+        "lib/netstandard2.0/JSAvalidation.dll",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/System.Windows.Forms.dll",
         "lib/netstandard2.1/JSAHelpEN.dll",
         "lib/netstandard2.1/JSAHelpEN.xml",
+        "lib/netstandard2.1/JSAvalidation.dll",
+        "lib/netstandard2.1/Polly.dll",
+        "lib/netstandard2.1/System.Windows.Forms.dll",
         "packageIcon.png"
       ]
     },
@@ -9029,7 +9062,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "JSAHelpEN >= 8.0.23"
+      "JSAHelpEN >= 8.1.16"
     ]
   },
   "packageFolders": {
@@ -9057,7 +9090,7 @@
         "net6.0-windows7.0"
       ],
       "sources": {
-        "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug\\net45\\publish": {},
+        "D:\\2022Git云\\JSAHelpEN\\JSAHelpEN\\bin\\Debug": {},
         "D:\\2022类库云\\Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -9082,7 +9115,7 @@
         "dependencies": {
           "JSAHelpEN": {
             "target": "Package",
-            "version": "[8.0.23, )"
+            "version": "[8.1.16, )"
           }
         },
         "imports": [

@@ -143,3 +143,5 @@ D:\2022Git测试\JSAHelpUnitTest\bin\Debug\HCenter.CommonUtils.dll
 D:\2022Git测试\JSAHelpUnitTest\bin\Debug\log4net.dll
 D:\2022Git测试\JSAHelpUnitTest\bin\Debug\MessagePack.dll
 D:\2022Git测试\JSAHelpUnitTest\bin\Debug\JSAHelpUnitTest.dll.config
+D:\2022Git测试\JSAHelpUnitTest\bin\Debug\JSAvalidation.dll
+D:\2022Git测试\JSAHelpUnitTest\bin\Debug\System.Windows.Forms.dll
